@@ -1,5 +1,8 @@
 let num = +prompt("2 rəqəmli bir ədəd daxil et:");
-while (num < 100) {
-  console.log(num);
+
+while (num + 7 < 100) {
   num += 7;
 }
+
+console.log(num);
+
